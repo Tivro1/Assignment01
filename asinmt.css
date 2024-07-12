@@ -1,0 +1,1233 @@
+/* Front Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+{
+    margin: 0px;
+    padding:0px;
+
+}
+nav{
+    display:flex;
+    
+    gap: 897px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+h3
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 650;
+    line-height: 35px;
+    margin-left: 73px;
+    margin-top: 30px;
+    letter-spacing: 0%;
+    letter-spacing: normal;
+    text-align: left;
+    /* position: absolute; */
+    width: 114px;
+    height: 34px;
+    left: 150px;
+    top: 50px;
+}
+button
+{
+   
+    width: 192px;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 17px 24px;
+    flex: none;
+    /* order: 0; */
+    /* flex-grow: 0; */
+    margin: 0px 10px;
+    margin-top: 30px;
+    margin-right: 30px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+     margin-bottom: 20px;
+    letter-spacing: normal;
+    text-align: center;
+    border: 0.8px solid gray;
+    border-radius: 3px;
+
+}
+
+/* First Continer Styles */
+
+.back-Img
+{
+    display:flex;
+    width: 1440px;
+    height: 652px;
+    background-repeat: no-repeat;
+    justify-content: center;
+ 
+    background-image: url("/assets/Hero-bg.png");
+    
+
+}
+
+.sub-cont
+{
+     /* display: flex;    */
+      width: 998px;
+      height: 582px;
+      justify-content: center;
+      display: inline-block;
+      text-align: center;
+     
+    
+    
+      
+     
+
+}
+.forPng
+{       
+       margin-top: 10px;
+      
+    
+     
+    
+}
+h6
+{
+    line-height: 2;
+    font-size: 31px;
+    font-family: 'Azeret Mono';
+    font-weight: bold;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.forStex
+{
+    font-family: 'Azeret Mono';
+    color: rgb(13, 19, 33);
+    font-size: 10px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.contact
+
+{ display: inline-block;
+    text-align: center;
+   
+
+}
+.contact button{
+    background-color: rgb(13, 19, 33);
+    color: white;
+    border-radius: 4px;
+}
+
+
+/* Continer 2 start */
+.mainC
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    width: 1440px;
+    height: 1235px;
+}
+.cont2
+{
+    
+    display: flex;
+   flex-direction: column;
+    width: 1440px;
+    height: 1235px;
+    border-radius: 16px;
+   margin-top: 25px;
+background: rgba(13, 19, 33, 0.02);
+    
+}
+.subcont1
+{
+    
+    width: 1440px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.subBox1
+{
+   
+    width: 800px;
+    height: 70px;
+    justify-content: center;
+}
+.subBox2
+{
+    
+    width: 1200px;
+    height: 125px;
+   
+
+}
+
+.subBox1 #boxhead1
+{
+    
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.subBox2 #boxpara1
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+.subcont2
+{
+    width: 1440px;
+    height: 311px;
+      margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+
+
+}
+.subBox3
+{
+    width: 720px;
+    height: 311px;
+     
+}
+.subhead1 h5{
+
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.subBox3 .boxpara2
+{
+    margin-top: 46px;
+    width: 500px;
+    height: auto;
+}
+.learn #learnB1
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 0px;
+    width: 174px;
+    height: 48px;
+    margin-top: 102px;
+}
+.subhead1
+{
+    width: 427px;
+    height: auto;
+}
+.subBox4
+{
+
+    width: 550px;
+    height: 311px;
+}
+
+
+
+.subcont3
+{
+    width: 1440px;
+    height: 311px;  margin-top: 15px;
+   
+    display: flex;
+    flex-direction: row;justify-content: space-between;
+    border-radius: 16px;
+
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.subBox5
+{
+
+    width: 550px;
+    height: 311px;
+   
+    
+}
+
+
+.subBox6
+{
+
+    width: 720px;
+    height: 311px;
+  
+   
+}
+.subhead2 h5{
+
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.subBox6 .boxpara3
+{
+    margin-top: 46px;
+    width: 500px;
+    height: auto;
+}
+.learn2 #learnB2
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 0px;
+    width: 174px;
+    height: 48px;
+    margin-top: 102px;
+}
+
+
+
+.subcont4
+{
+    width: 1440px;
+    height: 311px;
+    margin-top: 15px;
+    
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.subBox7
+{
+
+    width: 720px;
+    height: 311px;
+   
+    
+}
+
+
+.learn3 #learnB3
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 0px;
+    width: 174px;
+    height: 48px;
+    margin-top: 102px;
+}
+.subBox6 .boxpara4
+{
+    margin-top: 46px;
+    width: 500px;
+    height: auto;
+}
+.subhead3 h5{
+
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.subBox8
+{
+
+    width: 550px;
+    height: 311px;
+    
+   
+}
+
+/* Section 3  start*/
+
+
+.mainSection3
+{
+    width: 1440px;
+    height: 890px;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 34px;
+  
+    gap :20px;
+    align-items: center;
+}
+.divmain1
+{
+  
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+
+}
+.inst 
+{
+width: 800px;
+height: 100px;
+display: flex;
+
+ justify-content: center;
+
+}
+.inst #ins
+{
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 800px;
+    height: auto;
+
+}
+.inspara{
+    width: 800px;
+    height: 100px;
+   
+    display: flex;
+    justify-content: center;
+}
+.inspara #insp
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.inspara
+{
+    width: 800px;
+    height: 100px;
+}
+.divmain2
+{
+    
+    width: 1400px;
+    height: 577px;
+   
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    border: 0.7px solid rgba(206, 196, 196, 0.799);
+
+}
+
+/* Main Section4 */
+
+
+.mainSection4
+{
+
+    width: 1440px;
+    height: 500px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sec4 
+{
+    width: 1000px;
+    height: 150px;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec4 #traget
+{
+    width: 400px;
+    height: 75px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.sec4 #tar-par
+{
+    width: 400px;
+    height: 75px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 11px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin-left: 68px;
+    text-align: center;
+}
+
+.sec5
+{
+    width: 1440px;
+    height: 350px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.forall
+{
+    width: 1000px;
+    height: 300px;
+  
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+.forht
+{
+    padding: 20px;
+    width: 290px;
+    height: 220px;
+   
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+
+background: rgba(255, 76, 30, 0.05);
+}
+
+
+.htimg
+{
+    width: 50px;
+    height: 50px;
+}
+
+.htnam
+{
+    width: 100px;
+    height: 37px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Azeret Mono;
+    margin-top: 37px;
+}
+.htpar
+{
+    width: 300px;
+    height: 63px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    
+}
+.htL
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 150px;
+    height: 20px;
+    text-decoration-line: underline;
+}
+
+.forcs
+{ padding: 20px;
+    width: 290px;
+    height: 220px;
+  
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+.cssimg
+{
+
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+.cssnam
+{
+    width: 100px;
+    height: 37px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Azeret Mono;
+    margin-top: 37px;
+}
+.csspar
+{
+    width: 300px;
+    height: 63px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    
+}
+.cssL
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 150px;
+    height: 20px;
+    text-decoration-line: underline;
+}
+
+
+.forjav
+{ padding: 20px;
+    width: 290px;
+    height: 220px;
+   
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
+
+
+.javimg
+{
+
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+.javnam
+{
+    width: 100px;
+    height: 37px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Azeret Mono;
+    margin-top: 37px;
+}
+.javpar
+{
+    width: 300px;
+    height: 63px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    
+}
+.javL
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 150px;
+    height: 20px;
+    text-decoration-line: underline;
+}
+
+/* Main Section 5 */
+
+.mainSection5
+{
+
+    width: 1440px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+.submainS1
+{
+    width: 1000px;
+    height: 120px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxTitel
+{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.boxTitel #rectt
+{
+   
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 26px;
+    font-weight: 720;
+    width: 260px;
+    margin-top: 13px;
+    margin-left: 20px;
+    line-height: 37px;
+   
+    text-align: center;
+}
+
+.boxDecp p
+{
+    width: 700px;
+    height: 60px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.wrap
+{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 900px;
+}
+
+.submainS2
+{
+    width: 1200px;
+    height: 286px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+
+
+}
+.boximag1
+{
+    width: 300px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+}
+.subBoxImg
+{
+   
+    width: 115px;
+    text-align: center;
+    height: 115px;
+}
+
+.boxDes
+{
+  width:900px ;
+  height: 240px;
+ 
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.recT h3
+{
+    width: 200px;
+    height: 49px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    margin-left: -42px;
+    font-weight: 800;
+    padding-left: -42px;
+    padding-left: -42px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.recDes p
+{
+
+    width: 628px;
+    height: 80px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: -42px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.recL 
+{
+    width: 200px;
+    height: 80px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    margin-left: -42px;
+    font-weight: bolder;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+/* Node Js Box */
+
+
+
+.submainS3
+{
+    width: 1200px;
+    height: 286px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+
+
+}
+.boximag2
+{
+    width: 300px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+}
+.subBoxImg2
+{
+   
+    width: 115px;
+    text-align: center;
+    height: 115px;
+}
+
+.boxDes2
+{
+  width:900px ;
+  height: 240px;
+ 
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.recT2  h3
+{
+    width: 200px;
+    height: 49px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    margin-left: -42px;
+    font-weight: 800;
+    padding-left: -42px;
+    padding-left: -42px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.recDes2 p
+{
+
+    width: 628px;
+    height: 80px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: -42px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.recL2
+{
+    width: 200px;
+    height: 80px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    margin-left: -42px;
+    font-weight: bolder;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+/* Mongo Dv Box */
+
+
+.submainS4
+{
+    width: 1200px;
+    height: 286px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+
+
+}
+.boximag3
+{
+    width: 300px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+}
+.subBoxImg3
+{
+   
+    width: 115px;
+    text-align: center;
+    height: 115px;
+}
+
+.boxDes3
+{
+  width:900px ;
+  height: 240px;
+ 
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.recT3  h3
+{
+    width: 200px;
+    height: 49px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    margin-left: -42px;
+    font-weight: 800;
+    padding-left: -42px;
+    padding-left: -42px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.recDes3  p
+{
+
+    width: 628px;
+    height: 80px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: -42px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.recL3
+{
+    width: 200px;
+    height: 80px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    margin-left: -42px;
+    font-weight: bolder;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+/* Input section  */
+
+
+
+.inputBox
+{
+    width: 1440px;
+    height: 700px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+
+    
+}
+.inputwrap
+{
+
+    width: 1200px;
+    height: 422px;
+    background-image: url("/assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.inputdiv
+{
+
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.inputhead
+{
+    width: 1000px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputTitel h3
+{
+    width: 402px;
+    height: 110px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: -19px;
+    margin-top: 76px;
+    line-height: 75px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.inputdes p
+{
+    width: 612px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.inputText-Box
+{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+}
+.fed input
+{
+    padding: 9px;
+    width: 720px;
+    text-align: left;
+    border-radius: 16px;
+    font-size: 23px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 0.2px;
+    line-height: 15px;
+    border-color: none;
+    height: 63px;
+  
+}
+.fedSubmit button
+{
+    width: 150px;
+
+    height: 85px;
+    margin-left: 19px;
+    margin-top: -1px;
+    border-radius: 16px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+footer
+{
+    display: flex;
+  
+    width: 1440px;
+    height: 200px;
+   
+
+
+}
+
+
+.fotT h5
+{
+
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+.foterwrap
+{ border-radius: 16px;
+    height: 179px;
+  
+    align-items: center;
+    width: 1440px;
+    display: flex;
+ 
+    gap: 610px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+
+.fotterIcon
+{
+    display: flex;
+
+}
+.iconCon
+{
+    display: flex;
+    gap:2opx;
+}
