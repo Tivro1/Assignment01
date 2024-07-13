@@ -1089,7 +1089,7 @@ text-align: center;
 
     width: 1200px;
     height: 422px;
-    background-image: url("/assets/handshake.jpg");
+    background-image: url("./assets/handshake.jpg");
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
